@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pricing – Chrisje the Braider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Chrisje <span>the Braider</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="pricing.html" class="active">Pricing</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <h1>Pricing</h1>
+      <p class="section-intro">
+        All three example styles shown on the home page are priced at
+        <strong>40€</strong> each.
+      </p>
+
+      <div class="pricing-grid">
+        <article class="price-card">
+          <h2>Style 1</h2>
+          <p class="price">40€</p>
+          <p>Simple, clean look inspired by the first example image.</p>
+        </article>
+        <article class="price-card">
+          <h2>Style 2</h2>
+          <p class="price">40€</p>
+          <p>Close‑up detail style similar to the second example image.</p>
+        </article>
+        <article class="price-card">
+          <h2>Style 3</h2>
+          <p class="price">40€</p>
+          <p>Textured, detailed look based on the third example image.</p>
+        </article>
+      </div>
+
+      <p class="note">
+        Prices are per head and may vary slightly depending on hair length and
+        extra requests (added hair, special colours, etc.).
+      </p>
+
+      <a href="index.html#contact" class="btn-primary">Book your style</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Chrisje the Braider. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

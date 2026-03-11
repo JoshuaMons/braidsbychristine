@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chrisje the Braider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">Chrisje <span>the Braider</span></div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Flawless braids, every time.</h1>
+        <p>
+          Book your next protective style with <strong>Chrisje the Braider</strong> –
+          clean parts, neat braids, and long‑lasting looks.
+        </p>
+        <a href="#contact" class="btn-primary">Book an appointment</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Why choose Chrisje?</h2>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Neat & Long‑lasting</h3>
+          <p>Styles that stay fresh for weeks with minimal frizz.</p>
+        </div>
+        <div class="card">
+          <h3>Gentle on your hair</h3>
+          <p>Protective styles done with care for your natural hair and scalp.</p>
+        </div>
+        <div class="card">
+          <h3>Relaxed atmosphere</h3>
+          <p>A calm, friendly vibe so you can actually enjoy your hair day.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Example styles</h2>
+      <p class="section-intro">
+        A few example looks by Chrisje. All of these are priced at
+        <strong>40€</strong>. See full details on the
+        <a href="pricing.html">pricing page</a>.
+      </p>
+
+      <div class="gallery">
+        <figure>
+          <img src="assets/style1.png" alt="Braided hairstyle example 1 by Chrisje the Braider" />
+          <figcaption>Style 1 – Classic look</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/style2.png" alt="Braided hairstyle example 2 by Chrisje the Braider" />
+          <figcaption>Style 2 – Detail close‑up</figcaption>
+        </figure>
+        <figure>
+          <img src="assets/style3.png" alt="Braided hairstyle example 3 by Chrisje the Braider" />
+          <figcaption>Style 3 – Textured detail</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2>Contact & bookings</h2>
+      <p>
+        Ready to book? Send a message with your preferred date, time, and style.
+      </p>
+      <ul class="contact-list">
+        <li><strong>WhatsApp</strong>: +31 6 0000 0000</li>
+        <li><strong>Instagram</strong>: @chrisjethebraider</li>
+        <li><strong>Email</strong>: chrisje@example.com</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Chrisje the Braider. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
